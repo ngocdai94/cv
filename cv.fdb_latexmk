@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1639291871 "/Users/dainguyen/Desktop/cv/cv.tex" "cv.pdf" "cv" 1639291873
-  "/Users/dainguyen/Desktop/cv/cv.tex" 1639291870 12094 05ee3517ec28284ba11c9b33f93d4120 ""
+["pdflatex"] 1641847551 "/Users/dainguyen/Desktop/cv/cv.tex" "cv.pdf" "cv" 1641847553
+  "/Users/dainguyen/Desktop/cv/cv.tex" 1641847516 12102 f170a0edb8b5706d46d429ad8be5af69 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/carlito/crlt_ynpzot.enc" 1408666177 3095 534643e1ce5e5b89e4b95a9cbbe1a3ef ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1463430686 1687 f004baecce60175c6453d0e3f808cf20 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
@@ -221,9 +221,9 @@
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1638766808 2819932 e3e814afe05db80737e7f672468d4e65 ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "assets/images/profile.png" 1639290376 1356640 8c249bc14ca3845ce02542d9caba22f1 ""
-  "cv.aux" 1639291872 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
-  "cv.out" 1639291872 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cv.tex" 1639291870 12094 05ee3517ec28284ba11c9b33f93d4120 ""
+  "cv.aux" 1641847553 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
+  "cv.out" 1641847552 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cv.tex" 1641847516 12102 f170a0edb8b5706d46d429ad8be5af69 ""
   (generated)
   "cv.aux"
   "cv.log"
