@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.12.6)  20 JAN 2022 10:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2021.12.6)  20 JAN 2022 10:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1033,14 +1033,14 @@ LaTeX Font Info:    ... okay on input line 123.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(39.74872pt, 513.11635pt, 61.42993pt)
-* v-part:(T,H,B)=(36.135pt, 726.31372pt, 32.52127pt)
+* v-part:(T,H,B)=(39.74872pt, 726.31372pt, 28.90755pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=513.11635pt
 * \textheight=726.31372pt
 * \oddsidemargin=-32.52127pt
 * \evensidemargin=-32.52127pt
-* \topmargin=-73.135pt
+* \topmargin=-69.52127pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1188,13 +1188,13 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 Here is how much of TeX's memory you used:
  26935 strings out of 478353
  490413 string characters out of 5848086
- 812407 words of memory out of 5000000
+ 812415 words of memory out of 5000000
  44496 multiletter control sequences out of 15000+600000
  476890 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  88i,7n,91p,1027b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/carlito/crlt_ynpzot.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/carlito/Carlito-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/carlito/Carlito.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on cv.pdf (1 page, 1949621 bytes).
+Output written on cv.pdf (1 page, 1949620 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
