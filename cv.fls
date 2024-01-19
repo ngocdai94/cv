@@ -1,6 +1,6 @@
-PWD c:\Users\dainn\OneDrive\Desktop\cv
+PWD c:\Users\dainn\OneDrive\Dai's Resume\cv
 INPUT C:\Users\dainn\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\dainn\OneDrive\Desktop\cv\cv.tex
+INPUT c:\Users\dainn\OneDrive\Dai's Resume\cv\cv.tex
 OUTPUT cv.log
 INPUT C:\Users\dainn\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\dainn\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
