@@ -22,13 +22,13 @@
 \hyphenpenalty=10000
 \hbadness=10000
 % NO HYPHEN END
-\usepackage[top=0.55in, bottom=0.4in, left=0.55in,
+\usepackage[top=0.3in, bottom=0.4in, left=0.55in,
 right=0.85in]{geometry}
-\usepackage{setspace}                  % for line spacing
-\usepackage{vwcol}                     % unused - columns with different widths
-\usepackage{multicol}                  % unused - for columns with equal widths
-                                       % currently using minipage to create columns
-\usepackage{enumitem}                  % for 'itemize' configuration
+\usepackage{setspace}              % for line spacing
+\usepackage{vwcol}                  % unused - columns with different widths
+\usepackage{multicol}               % unused - for columns with equal widths
+                                       	% currently using minipage to create columns
+\usepackage{enumitem}           	% for 'itemize' configuration
 % http://ctan.org/pkg/enumitem
 % bullet style for items in list:
 \renewcommand\labelitemi{\rule[1mm]{0.33mm}{0.33mm}}  
@@ -49,14 +49,14 @@ right=0.85in]{geometry}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % OTHER PACKAGES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{array,multirow,graphicx}   % for tables
-\usepackage{verbatim}                  % for multi-line comments
-\usepackage{graphicx}                  % for rotating text boxes
-\usepackage{tikz}                      % for drawing shapes & highlights
-\usepackage{soul}                      % for text highlights/underlines
-\setul{-0.5ex}{1ex}                    % set underline dimension
-\setuloverlap{3pt}                     % how much line is sticking out
-\setulcolor{ceil}                 % set undline color for package soul
+\usepackage{array,multirow,graphicx} 		% for tables
+\usepackage{verbatim}                 		% for multi-line comments
+\usepackage{graphicx}                  		% for rotating text boxes
+\usepackage{tikz}                      		% for drawing shapes & highlights
+\usepackage{soul}                      		% for text highlights/underlines
+\setul{-0.5ex}{1ex}                    		% set underline dimension
+\setuloverlap{3pt}                     		% how much line is sticking out
+\setulcolor{ceil}                 			% set undline color for package soul
 \usepackage{amssymb,amsmath}
 \usepackage{mathabx}                   % for math symbols
 \usepackage{ifxetex,ifluatex}
@@ -135,33 +135,56 @@ right=0.85in]{geometry}
   % INTENTIONALLY LEFT BLANK
 \end{minipage}
 \:\:\:\:\: % space between minipages
-\begin{minipage}[t]{0.31\linewidth}
+%\begin{minipage}[t]{0.31\linewidth}
+%  \raggedleft
+%  \vspace*{-30px}
+%  Atlanta, GA\enspace\faGlobe\\
+%  dai-nguyen.com\enspace\faGlobe\\
+%  hire@dai-nguyen.com\enspace\faPaperPlane\\
+%  linkedin.dai-nguyen.com\enspace\faLinkedin\\
+%  github.dai-nguyen.com\enspace\faGithubAlt\\
+%\end{minipage}
+%\:\:\:\:\: % space between minipages
+%\begin{minipage}[c]{0.2\linewidth}
+%  \raggedright
+%  \begin{tikzpicture}
+%    \fill[ceil] (0,2.2) circle (1.2);
+%    \includegraphics[width=1\linewidth]{assets/images/profile.png}
+%  \end{tikzpicture}
+%\end{minipage}
+\begin{minipage}[t]{0.6\linewidth}
   \raggedleft
   \vspace*{-30px}
-  Atlanta, GA\enspace\faGlobe\\
+  Atlanta, GA, USA\enspace\faGlobe\\
   dai-nguyen.com\enspace\faGlobe\\
   hire@dai-nguyen.com\enspace\faPaperPlane\\
   linkedin.dai-nguyen.com\enspace\faLinkedin\\
   github.dai-nguyen.com\enspace\faGithubAlt\\
++1 (206) 313-3827\enspace\faPhone\\
 \end{minipage}
-\:\:\:\:\: % space between minipages
-\begin{minipage}[c]{0.2\linewidth}
-  \raggedright
-  \begin{tikzpicture}
-    \fill[ceil] (0,2.2) circle (1.2);
-    \includegraphics[width=1\linewidth]{assets/images/profile.png}
-  \end{tikzpicture}
-\end{minipage}
-\vspace*{20px}\\ % space between header and content
+\vspace*{8px}\\ % space between header and content
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SUMMARY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\textbf{\fontsize{14px}{-1px}\selectfont
+  \ul{S U M M A R Y}
+}\\
+\vspace{7px}\\
+\begin{large}
+Dedicated Software Engineer with over 5 years of experience developing robust and scalable software solutions.  Proficient in full-stack development, cloud technologies, and DevOps practices. Excited to contribute my skills to a dynamic team.
+\end{large}
+
+
 %------------------------------------
 % First Column
 %------------------------------------
 \begin{minipage}[t]{0.424\linewidth}
-\vspace{0pt}
+\vspace{3pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % EDUCATION HISTORY
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \textbf{\fontsize{14px}{1px}\selectfont
   \ul{E D U C A T I O N}
 }\\
@@ -175,7 +198,7 @@ right=0.85in]{geometry}
 \textbf{\textsf{Seattle Central College - Seattle, WA}}\\
 \textbf{Web Developent \& }\\
 \textbf{Network Administrator Certificate}\\
-\vspace{19px}
+\vspace{8px}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % COMPETENCIES / TECHNICAL SKILLS
@@ -183,13 +206,13 @@ right=0.85in]{geometry}
 \textbf{\fontsize{14px}{1px}\selectfont
   \ul{C O M P E T E N C I E S}
 }\\
-\vspace{0px}\\
+\vspace{-5px}\\
 \begin{minipage}[t]{0.01\linewidth}
   % INTENTIONALLY LEFT BLANK
   \end{minipage}
   \: % space between left margin and text
 
-  \vspace{7px}
+  \vspace{1px}
   \textcolor{gray}{Software and Platforms:}\\
   \begin{quote}
       \textmd{Google Cloud Platform (GCP), Visual Studio, Eclipse, IntelliJ, GitHub/GitLab, Jenkins, Jira, Microsoft Office, NI
@@ -200,9 +223,9 @@ right=0.85in]{geometry}
   \vspace{7px}
   \textcolor{gray}{Languages, Libraries, and Frameworks:} \\ 
   \begin{quote}
-    \textmd{C, C++, C\#, Java, TypeScript, JavaScript, Python, MATLAB, MIPS Assembly
-    Language, VHDL, jQuery, Node.js, Express.js, REST API, Spring Boot, HTML, CSS, PHP,
-    MongoDB, SQL (MySQL)}\\
+    \textmd{C, C++, C\#, Java, Python, TypeScript, JavaScript, ReactJS, AngularJS Node.js, Express.js, RESTful API, Spring Boot,  HTML, CSS, PHP, jQuery,
+    MongoDB, MySQL, LaTex, MATLAB, MIPS Assembly
+    Language, VHDL}\\
   \end{quote}
 
   \vspace{7px}
@@ -239,17 +262,17 @@ right=0.85in]{geometry}
     \begin{quote}
         \textmd{Fast learner and a problem solver}
     \end{quote}
-  \item
-    \begin{quote}
-        \textmd{Strong organizational, analytical, \& presentation skills}
-    \end{quote}
+%  \item
+%    \begin{quote}
+%        \textmd{Strong organizational, analytical, \& presentation skills}
+%    \end{quote}
   \end{itemize}
 \end{minipage}
 %------------------------------------
 % Second Column
 %------------------------------------
 \begin{minipage}[t]{0.61\linewidth}
-\vspace{0pt}
+\vspace{2pt}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % RELEVANT EXPERIENCE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -273,7 +296,7 @@ well as implementing new features following Macy's new warehouse management syst
 \item
   \begin{quote}
   \raggedright
-  Developed and maintained web applications using Java, Spring Boot, React, and Typescript
+  Developed and maintained web applications using Java, Spring Boot, React, Typescript, MySQL
   \end{quote}
 \item
   \begin{quote}
@@ -308,56 +331,21 @@ maintaining existing computers, as well as backuping clients medical records.
 \item
   \begin{quote}
   \raggedright
-  Designed and implemented a web application to reverse more than 100 geographic locations at the same time to Google Maps by using Latitude and Longitude from Degree, Minute, and Second (DMS) format
+  Designed and implemented a web application to reverse more than 1000 geographic locations at the same time to Google Maps by using Latitude and Longitude from Degree, Minute, and Second (DMS) format
   \end{quote}
 \item
   \begin{quote}
   \raggedright
-  Integrated a front-end to back-end upload so that a csv file of Latitude and Longitude coordinates could be uploaded to a MySQL Database and pulled them to the front-end to reverse all geographic locations
+  Developed front-end and back-end components using PHP, JavaScript, jQuery, and MySQL
   \end{quote}
 \item
   \begin{quote}
   \raggedright
-  Frontend/backend work using PHP, JavaScript, jQuery, \& MySQL
+  Collaborated with cross-functional teams to ensure timely project delivery
   \end{quote}
 \end{itemize}
 
-%% Seattle Central College: Node Package Manager Project
-\vspace{7px}
-\textcolor{gray}{September - October 2017}\\
-\textbf{\textsf{Single Page Application at Seattle Central College}}\\
-\raggedright
-Worked within Node Package Manager to build a single page book application by utilizing Node.js,
-Express.js, React.js, MongoDB, and REST API to update the webpage without reloading the webpage.
-
-%% Undergraduate Research Assistant at Seattle University
-%\vspace{7px}
-%\textcolor{gray}{June 2017 - August 2017}
-%\quad 
-%\\
-%\textbf{\textsf{Undergraduate Research Assistant at Seattle University}}\\
-%\raggedright
-%\begin{itemize}[leftmargin=*,labelindent=1mm,labelsep=0mm]
-%\item
-%  \begin{quote}
-%  \raggedright
-%  Provided ongoing assistance to an assigned faculty member
-%  \end{quote}
-%\item
-%  \begin{quote}
-%  \raggedright
-%  Handled various responsibilities related to research projects
-%and miscellaneous assignments
-%  \end{quote}
-%\item 
-%  \begin{quote}
-%    \raggedright
-%    Assisted in the development and implementation of
-%    engineering projects, including using MATLAB and ThingSpeak to design, build, and implement an image classification for an IoT application
-%  \end{quote}
-%\end{itemize}
-
-%% Senior Design / Interdisciplinary Project: PACCAR
+% Senior Design / Interdisciplinary Project: PACCAR
 \vspace{7px}
 \textcolor{gray}{September 2016 - June 2017}
 \quad 
@@ -383,23 +371,6 @@ Refined truck’s trailer communication system via Bluetooth, XBee sensor module
   Integrated data hub and Android application so that the Android application can get and display sensors' data via Bluetooth connection
   \end{quote}
 \end{itemize}
-
-%% VHDL Teaching Assistant at Seattle University
-% \vspace{7px}
-% \textcolor{gray}{January 2017 - March 2017}
-% \quad 
-% \\
-% \textbf{\textsf{VHDL Teaching Assistant at Seattle University}}\\
-% \raggedright
-% Oversaw lab operations including sanitizing and sterilizing equipment and workspaces, and upholding lab procedures, methodologies, and processes. Provided ongoing assistance to laboratory students, specifically with developing and comprehending programming projects using VHDL to FPGA.
-% \\
-% \begin{itemize}[leftmargin=*,labelindent=1mm,labelsep=0mm]
-% \item
-%   \begin{quote}
-%   \raggedright
-%   Mentored students on best practices and proven strategies in writing code more efficiently and developing habits, and coding style to standardize project deliverables
-%   \end{quote}
-% \end{itemize}
 \end{minipage}
 
 \end{document}
