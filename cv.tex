@@ -14,6 +14,14 @@
 \usepackage{lmodern}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CUSTOM CONSTANTS for Bullet Points
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newlength{\quoteleftskip}            % define a new length for competencies
+\newlength{\quoteleftskipAdditional}  % define a new length for additional skills
+\setlength{\quoteleftskip}{-10pt}  
+\setlength{\quoteleftskipAdditional}{-18pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % DEFINE PAGE LAYOUT & SPACING
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % For NO HYPHEN
@@ -213,6 +221,7 @@ right=0.85in]{geometry}
   \vspace{1px}
   \textcolor{gray}{Software and Platforms:}\\
   \begin{quote}
+      \leftskip=\quoteleftskip
       \textmd{Google Cloud Platform (GCP), Visual Studio, Eclipse, IntelliJ, GitHub/GitLab, Jenkins, Jira, Microsoft Office, NI
       Multisim, NI Ultiboard, NI LabView, CYME, AutoCAD, Microsoft, Mac OS,
       Linux}\\
@@ -221,6 +230,7 @@ right=0.85in]{geometry}
   \vspace{7px}
   \textcolor{gray}{Languages, Libraries, and Frameworks:} \\ 
   \begin{quote}
+    \leftskip=\quoteleftskip
     \textmd{C, C++, C\#, Java, Python, TypeScript, JavaScript, NestJS, ReactJS, AngularJS Node.js, Express.js, RESTful API, Spring Boot,  HTML, CSS, PHP, jQuery,
     MongoDB, MySQL, Postgres, Helm, Terraform,  LaTex, MATLAB, MIPS Assembly
     Language, VHDL}\\
@@ -229,35 +239,42 @@ right=0.85in]{geometry}
   \vspace{7px}
   \textcolor{gray}{Internet Protocols:}  \\
   \begin{quote}
+      \leftskip=\quoteleftskip
       \textmd{TCP/IP, OSI, OSPF, BGP, DNS, P2P, DHCP}\\
   \end{quote}
 
   \vspace{7px}
   \textcolor{gray}{Additional Skills:}  \\
-  \begin{itemize}[leftmargin=*,labelindent=0mm,labelsep=0mm]
+  \begin{itemize}[leftmargin=10pt, labelindent=0pt, labelsep=-3mm]
     \raggedright
   \item
     \begin{quote}
+        \leftskip=\quoteleftskipAdditional
         \textmd{Full-stack web \& mobile apps design and developments}
     \end{quote}
   \item
-    \begin{quote}      
+    \begin{quote}
+        \leftskip=\quoteleftskipAdditional
         \textmd{Wireless \&  Network Security Integration}
     \end{quote}
   \item
     \begin{quote}
+        \leftskip=\quoteleftskipAdditional
         \textmd{PCB design, testing, and soldering}
     \end{quote}
   \item
     \begin{quote}
+        \leftskip=\quoteleftskipAdditional
         \textmd{FPGA programming and testing}
     \end{quote}
   \item
     \begin{quote}
-        \textsf{Researcher}
+        \leftskip=\quoteleftskipAdditional
+        \textmd{Researcher}
     \end{quote}
   \item
     \begin{quote}
+        \leftskip=\quoteleftskipAdditional
         \textmd{Fast learner and a problem solver}
     \end{quote}
 %  \item
